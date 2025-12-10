@@ -37,21 +37,21 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.
 ```bash
 nano ~/.zshrc
 # เปลี่ยนบรรทัด:
-# plugins=(git)
+plugins=(git)
 # เป็น:
-# plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 # แล้วเพิ่มบรรทัด:
-# eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/theme.omp.json)"
-# ZSH_HIGHLIGHT_STYLES[alias]=fg=11
-# ZSH_HIGHLIGHT_STYLES[builtin]=fg=11
-# ZSH_HIGHLIGHT_STYLES[function]=fg=11
-# ZSH_HIGHLIGHT_STYLES[command]=fg=11
-# ZSH_HIGHLIGHT_STYLES[path]=none
-# ZSH_HIGHLIGHT_STYLES[path_prefix]=none
-# ZSH_HIGHLIGHT_STYLES[unknown-token]='none'
-# ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=8'
-# ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=8'
-# ZSH_HIGHLIGHT_STYLES[default]='none'
+eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/theme.omp.json)"
+ZSH_HIGHLIGHT_STYLES[alias]=fg=11
+ZSH_HIGHLIGHT_STYLES[builtin]=fg=11
+ZSH_HIGHLIGHT_STYLES[function]=fg=11
+ZSH_HIGHLIGHT_STYLES[command]=fg=11
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+ZSH_HIGHLIGHT_STYLES[unknown-token]='none'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=8'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=8'
+ZSH_HIGHLIGHT_STYLES[default]='none'
 ```
 
 ### 7. โหลด config ใหม่
